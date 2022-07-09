@@ -1,6 +1,6 @@
 package com.edddoubled.sudokuninja.controller;
 
-import com.edddoubled.sudokuninja.SudokuSolverService;
+import com.edddoubled.sudokuninja.service.SudokuSolverService;
 import com.edddoubled.sudokuninja.model.SolutionMetadata;
 import com.edddoubled.sudokuninja.repository.SolutionMetadataRepository;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.edddoubled.sudokuninja;
+package com.edddoubled.sudokuninja.service;
 
 import com.edddoubled.sudokuninja.engine.SudokuSolver;
 import com.edddoubled.sudokuninja.engine.meta.Field;
