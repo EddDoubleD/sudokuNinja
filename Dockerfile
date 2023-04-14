@@ -1,9 +1,9 @@
-FROM edddoubled/liberica-openjdk-maven-alpine:17
+FROM bellsoft/liberica-openjdk-alpine:17.0.6
 LABEL maintainer="sulimov.dmitriy@otr.ru"
 # copy the source tree and the pom.xml to our new container
 COPY ./ ./
 # package our application code
-RUN mvn clean package
+RUN ./mvnw package -DskipTests
 ARG JAR_FILE
 COPY ${JAR_FILE} app.jar
 EXPOSE 8080
